@@ -164,6 +164,7 @@ input[type='text']{
     background-color: rgba(5, 5, 52, 0.393);
     z-index:100;
     transition: all 0.5s ease-in-out;
+    height: 100vh;
 
 }
 .dashboard-content{
