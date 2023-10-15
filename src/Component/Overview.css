@@ -1,0 +1,138 @@
+.mid-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+   
+}
+.overview{
+    width:70%;
+    background-color: white;
+    margin:10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.customers{
+    width: 30%; 
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.overview-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview-paragraph{
+    padding:5px;
+}
+.overview-paragraph p{
+    font-size: 10px; 
+}
+.overview-quarter{
+    background-color: rgba(201, 192, 192, 0.338);
+    padding:8px 10px;
+    color:grey;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+   
+}
+.graph-body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+.graph{
+    position:relative;
+    width: 30px;
+    border-radius: 5px;
+    background-color: rgba(201, 192, 192, 0.338);
+    bottom: 0px;
+}
+.overview-graph-body{
+    padding:7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+.jan{
+    height: 100px;
+}
+.feb{
+    min-height: 70px;
+}
+.mar{
+    height: 145px;
+}
+.apr{
+    min-height: 110px;
+}
+.may{
+    height: 130px;
+}
+.jun{
+    min-height: 50px;
+}
+.jul{
+    height: 130px;
+}
+.aug{
+    min-height: 160px;
+    background-color: rgba(21, 21, 164, 0.765);
+}
+.sep{
+    height: 150px;
+}
+.oct{
+    min-height: 130px;
+}
+.nov{
+    height: 110px;
+}
+.dec{
+    min-height: 140px;
+}
+
+.customers-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers-paragraph{
+    padding:5px;
+}
+.customers-paragraph p{
+    font-size: 10px; 
+}
+.customers-graph-body{
+    padding:7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.customers-graph{
+    border:1px solid red;
+    width: 80%;
+    height: 33vh;
+    margin-left:25px;
+    border-radius: 50%;
+    box-shadow: -31px -31px -31px #e78267;
+}
+@media only screen and (max-width: 767px) {
+    .overview-graph-body{
+        flex-wrap: wrap;
+    }
+    .mid-content{
+        flex-wrap: wrap;
+    }
+    .customers{
+        width: 70%;
+    }
+}

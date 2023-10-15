@@ -154,6 +154,47 @@ input[type='text']{
     margin:0.10rem;
     padding:0.10rem;
 }
+.footer{
+    margin-top:60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 3px;
+}
+.pic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:5px;
+}
+.pic h6{
+    margin: 5px;
+}
+.pic p{
+    margin: 5px;
+    font-size: 10px;
+}
+
+#profile-pic{
+    height:27px;
+    width: 25px;
+    border:1px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border:transparent; 
+}
+.footer-name{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.footer-name h6{
+    
+    
+}
 
 @media only screen and (max-width: 992px) {
 .dashboard-menu{

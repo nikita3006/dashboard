@@ -11,6 +11,12 @@ import {BiSolidOffer}  from 'react-icons/bi';
 import {MdOutlineLiveHelp}  from 'react-icons/md';
 import {FaGreaterThan} from 'react-icons/fa';
 import { useState } from 'react';
+import Overview from './Component/Overview';
+import profile from './Asset/profilepic.jpg';
+import {AiOutlineDown} from 'react-icons/ai';
+
+
+
 function App() {
 
  const[menu, setMenu] = useState(false)
@@ -53,7 +59,14 @@ function App() {
                   <FaGreaterThan/>
                 </li>
               </ul>
-        </div>
+            <div class="footer">
+              <div class="pic">
+                <img src={profile} alt="Nikita" id="profile-pic"/>
+               <span className='footer-name'><h6>Nikita Negi</h6>
+                <p>Project Manager</p><AiOutlineDown/></span>
+              </div>
+            </div>
+      </div>
       </section>
       <section className='dashboard-content'>
         <User menu={menuHandler}/>
@@ -63,6 +76,7 @@ function App() {
             
           ))}
         </DashboardContainer>
+        <Overview/>
       </section>
     </main>
   );
