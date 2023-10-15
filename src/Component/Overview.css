@@ -126,13 +126,21 @@
     box-shadow: -31px -31px -31px #e78267;
 }
 @media only screen and (max-width: 767px) {
-    .overview-graph-body{
-        flex-wrap: wrap;
-    }
     .mid-content{
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .overview{
+        width: 90%;  
     }
     .customers{
-        width: 70%;
+        width: 90%;  
+    }
+    .graph{
+        width: 15px;
+    }
+    .graph-body{
+        overflow-x: scroll;
     }
 }
