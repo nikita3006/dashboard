@@ -14,6 +14,8 @@ import { useState } from 'react';
 import Overview from './Component/Overview';
 import profile from './Asset/profilepic.jpg';
 import {AiOutlineDown} from 'react-icons/ai';
+import Product from './Component/Product';
+
 
 
 
@@ -59,11 +61,13 @@ function App() {
                   <FaGreaterThan/>
                 </li>
               </ul>
-            <div class="footer">
+              <div class="footer">
               <div class="pic">
-                <img src={profile} alt="Nikita" id="profile-pic"/>
-               <span className='footer-name'><h6>Nikita Negi</h6>
-                <p>Project Manager</p><AiOutlineDown/></span>
+                <img src={profile} alt="Nikita" id="profile-pic" />
+                <span className='footer-name'>
+                  <h6>Nikita Negi</h6>
+                  <p>Project Manager <AiOutlineDown className='down-icon' /></p>
+                </span>
               </div>
             </div>
       </div>
@@ -77,6 +81,7 @@ function App() {
           ))}
         </DashboardContainer>
         <Overview/>
+       <Product/>
       </section>
     </main>
   );

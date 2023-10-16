@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Component/Overview.css';
 import {AiOutlineDown} from 'react-icons/ai';
+import Chart from 'react-google-charts';
 
 function Overview (){
     return(
@@ -16,51 +17,51 @@ function Overview (){
                 <section className='overview-graph-body'>
                     <div className='graph-body'>
                         <div className='graph jan'></div>
-                        <span>jan</span>
+                        <span>Jan</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph feb'></div>
-                        <span>feb</span>
+                        <span>Feb</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph mar'></div>
-                        <span>mar</span>
+                        <span>Mar</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph apr'></div>
-                        <span>apr</span>
+                        <span>Apr</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph may'></div>
-                        <span>may</span>
+                        <span>May</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph jun'></div>
-                        <span>jun</span>
+                        <span>Jun</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph jul'></div>
-                        <span>jul</span>
+                        <span>Jul</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph aug'></div>
-                        <span>aug</span>
+                        <span>Aug</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph sep'></div>
-                        <span>sep</span>
+                        <span>Sep</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph oct'></div>
-                        <span>oct</span>
+                        <span>Oct</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph nov'></div>
-                        <span>nov</span>
+                        <span>Nov</span>
                     </div>
                     <div className='graph-body'>
                         <div className='graph dec'></div>
-                        <span>dec</span>
+                        <span>Dec</span>
                     </div>
                 </section>
             </div>
@@ -72,9 +73,15 @@ function Overview (){
                     </span>
                 </section>
                 <section className='customers-graph-body'>
-                    <div className='customers-graph'>
-                    </div>
-
+                    {/* <div className='customers-graph'>
+                        <div className='customers-graph-top'>
+                            <span>
+                            <h3>65%</h3>
+                            <p> Total New Customers</p>
+                            </span>
+                        </div>
+                    </div> */}
+                     <Chart/>
                 </section>
             </div>
         </div>

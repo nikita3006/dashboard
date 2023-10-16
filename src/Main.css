@@ -155,7 +155,7 @@ input[type='text']{
     padding:0.10rem;
 }
 .footer{
-    margin-top:60%;
+    margin-top:100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -194,6 +194,12 @@ input[type='text']{
 .footer-name h6{
     
     
+}
+.down-icon {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; 
+    margin-left: 50px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -235,6 +241,7 @@ input[type='text']{
 }
 .search-bar{
     width:200px;
+    
 }
 }
 
