@@ -6,7 +6,7 @@
 
 .dashboard-menu{
     width: 15%;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: rgb(5, 5, 52);
     overflow-x: hidden;
     color:white;
@@ -109,10 +109,10 @@ input[type='text']{
     background-color: rgba(115, 206, 115, 0.461);
 }
 .light-purple{
-    background-color: rgb(30, 201, 30);
+    background-color:rgba(183, 122, 183, 0.315);
 }
 .light-blue{
-    background-color: rgb(30, 201, 30);
+    background-color:rgba(126, 167, 183, 0.628);
 }
 .light-red{
     background-color: rgb(30, 201, 30);
@@ -155,7 +155,8 @@ input[type='text']{
     padding:0.10rem;
 }
 .footer{
-    margin-top:100%;
+    position: sticky;
+    bottom:0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;

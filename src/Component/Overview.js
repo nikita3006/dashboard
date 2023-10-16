@@ -73,15 +73,14 @@ function Overview (){
                     </span>
                 </section>
                 <section className='customers-graph-body'>
-                    {/* <div className='customers-graph'>
+                    <div className='customers-graph'>
                         <div className='customers-graph-top'>
-                            <span>
-                            <h3>65%</h3>
-                            <p> Total New Customers</p>
+                            <span className='customers-graph-inner'>
+                                <h3>65%</h3>
+                                <p> Total New Customers</p>
                             </span>
                         </div>
-                    </div> */}
-                     <Chart/>
+                    </div>
                 </section>
             </div>
         </div>

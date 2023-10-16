@@ -117,47 +117,57 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
+    position: relative;  
+    border-radius: 50%;
+    width:150px ;
+    height: 150px;
+    margin: 10px 0px 10px 11%;
 }
 .customers-graph{
     position: absolute;
     top:0px;
     left:0px;
-    border:15px solid red;
-    width: 100%;
-    height: 100%;
+    border:15px solid rgba(201, 192, 192, 0.338);
+    width:150px ;
+    height: 150px;
     border-radius: 50%;
     box-shadow: -31px -31px -31px #e78267;
 }
-.customers-graph-body{
-    position: relative;
-  
-    
-     margin-left: 25%;
-    border-radius: 50%;
-    width:200px ;
-    height: 200px;
-   
-}
+
 .customers-graph-top{
+    position: absolute;
+    top: -5px;
+    border:25px solid rgba(165, 42, 42, 0);
+    background: transparent;
+    left:-5px;
+    width:150px ;
+    height: 150px;
+    border-radius: 50%;
+    border-top-color:rgb(84, 86, 212); ;
+    border-right-color:rgb(84, 86, 212);
+    transform: rotate(100deg);
+    
+}
+
+.customers-graph-inner{
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 0px;
-    border:none;
+    flex-direction: column;
+    top: -31px;
+    border:35px solid rgba(0, 0, 0, 0);
     background: transparent;
-    left:0px;
-    height: 100%;
-    width: 100%;
-  
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border: 1px solid #000; /* You can adjust the border as needed */
-        padding: 20px; /* Add padding to create some space inside the div */
-        background-color: purple; /* Set the background color as desired */
+    left:-32px;
+    width:150px ;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+    border-right-color:rgb(212, 84, 148);
+    transform: rotate(-100deg);
     
-      
-    /* border-top:20px solid rgba(201, 99, 201, 0.941); */
 }
 @media only screen and (max-width: 767px) {
     .mid-content{
