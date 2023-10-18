@@ -155,10 +155,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: -31px;
+    text-align: center;
+    top: -25px;
     border:35px solid rgba(0, 0, 0, 0);
     background: transparent;
-    left:-32px;
+    left:-35px;
     width:150px ;
     height: 150px;
     border-radius: 50%;
